@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styleforma.css">
   <title>Registracija</title>
 </head>
 <body>
     <header>
-        <h1>Rezervacija dvorana</h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">O nama</a>
-          <a href="register.html">Registracija</a>
-        </nav>
+      <h1>Rezervacija dvorana</h1>
+      <nav>
+      <ul id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">O nama</a></li>
+        <li><a href="register.html">Registracija</a></li>
+      </ul>
+      </nav>
       </header>
   
-  <form action="index.html" method="post">
+  <div id="forma">
+    <form  action="index.html" method="post">
     <label for="username">Korisničko ime</label>
     <input id="username" name="username" type="text" required>
     <br>
@@ -33,8 +37,9 @@
     <input id="lastName" name="lastName" type="text">
     <br>
   
-    <input type="submit">
+    <input type="submit" value="Registracija">
   </form>
+</div>
 
   <footer>
       <h4>Grad Križevci</h4>

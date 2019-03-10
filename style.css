@@ -15,21 +15,29 @@ h1 {
 
 nav {
   float: right;
-  padding: 10px 20px;
 }
+
+#nav {list-style: none;margin: 0;padding: 0;}
+#nav li {float: left;}
+#nav li a {display: block;padding: 30px 20px;}
+
+
 
 a {
   padding: 0 20px;
   color: #fff;
   text-decoration: none;
-}
+  display: inline
+  }
 
 a:hover {
   background-color: #5f5f5f;
 }
 
+
 img {
   width: 100%;
+  height: auto;
 }
 
 footer {
