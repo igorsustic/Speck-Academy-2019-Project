@@ -76,12 +76,20 @@ var dt = luxon.DateTime.fromISO("2017-05-15");
 // var dt = DateTime.local(2017, 5, 15, 8, 30);
 
 // SERVER
-const http = require('http');
+let express = require('express');
+let app = express();
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  // res.end(imenaDvoranaString);
-}).listen(8080);
+app.get('/', (req, res) => {
+   res.send('Hello world');
+});
+
+app.listen(3000, () => console.log('Hello world 3000!'));
+
+var dvorane = require('./halls.js');
+
+app.get('/halls', function (req, res) {
+res.json('./halls.js');
+})
 
 
 module.exports = dvorane;
