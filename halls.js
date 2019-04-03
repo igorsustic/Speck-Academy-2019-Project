@@ -75,6 +75,7 @@ const luxon = require('luxon');
 var dt = luxon.DateTime.fromISO("2017-05-15");  
 // var dt = DateTime.local(2017, 5, 15, 8, 30);
 
+/*
 // SERVER
 let express = require('express');
 let app = express();
@@ -90,6 +91,6 @@ var dvorane = require('./halls.js');
 app.get('/halls', function (req, res) {
 res.json('./halls.js');
 })
-
+*/
 
 module.exports = dvorane;
