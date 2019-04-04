@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #333;
+}
+
+.header__nav { 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.header__nav a {
+  display: block;
+  padding: 8px;
+}
+
+.header__nav a:hover {
+  background-color: #5f5f5f;
+}
+
+.header__h1 {
+  margin: 0px;
+  display: block;
+  color: #fff;
+  font-size: 40px;
+  padding: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  }
+
+.subheader {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: rgb(80, 80, 80);
+}
+.subheader__nav {
+  display: block;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:  rgb(80, 80, 80);
+}
+.subheader__nav a {
+  display: block;
+  padding: 8px;
+}
+
+.subheader__nav a:hover {
+  background-color:  rgb(110, 110, 110);
+}
+
+.body__imgholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imgholder__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.forma form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+
+.ime_dvorane {
+width: 224px;
+text-align: center;
+margin-bottom: 8px;
+padding: 8px;
+border: 0;
+color: #fff;
+font-family: Tahoma, sans-serif;
+background: #333;
+}
+
+.imgholder__img {
+  width: 240px;
+  height: 160px;
+  margin: 8px 0px 8px 0px;
+  
+  object-fit: cover;
+}
+
+
+@media only screen and (min-width: 920px) {
+
+
+
+}
+
+
+footer {
+  display: block;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  height: 100px;
+  background-color: #333;
+}
