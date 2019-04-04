@@ -5,7 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
 }
 
 header {
@@ -45,6 +45,31 @@ a {
   display: block;
   }
 
+.subheader {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: rgb(80, 80, 80);
+}
+.subheader__nav {
+  display: block;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:  rgb(80, 80, 80);
+}
+.subheader__nav a {
+  display: block;
+  padding: 8px;
+}
+
+.subheader__nav a:hover {
+  background-color:  rgb(110, 110, 110);
+}
 
 .body__imgholder {
   display: flex;
@@ -55,6 +80,21 @@ a {
 }
 
 .imgholder__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.forma form{
   display: flex;
   flex-direction: column;
   justify-content: center;
